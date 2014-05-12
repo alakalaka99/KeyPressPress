@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="KeyPressPress" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/KeyPressPress" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DSFML_STATIC" />
+					<Add directory="C:/Users/Mack/Dropbox/Programming/Git/SFML/include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-audio-s-d" />
+					<Add library="sfml-network-s-d" />
+					<Add library="sfml-graphics-s-d" />
+					<Add library="sfml-window-s-d" />
+					<Add library="sfml-system-s-d" />
+					<Add directory="C:/Users/Mack/Dropbox/Programming/Git/SFML/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/KeyPressPress" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DSFML_STATIC" />
+					<Add directory="C:/Users/Mack/Dropbox/Programming/Git/SFML/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-audio-s-d" />
+					<Add library="sfml-network-s-d" />
+					<Add library="sfml-graphics-s-d" />
+					<Add library="sfml-window-s-d" />
+					<Add library="sfml-system-s-d" />
+					<Add directory="C:/Users/Mack/Dropbox/Programming/Git/SFML/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-DSFML_STATIC" />
+			<Add directory="C:/Users/Mack/Dropbox/Programming/Git/SFML/include" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-graphics-s-d" />
+			<Add library="sfml-window-s-d" />
+			<Add library="sfml-system-s-d" />
+			<Add directory="C:/Users/Mack/Dropbox/Programming/Git/SFML/lib" />
+		</Linker>
+		<Unit filename="KPPBass.cpp" />
+		<Unit filename="KPPBass.hpp" />
+		<Unit filename="KPPDrums.cpp" />
+		<Unit filename="KPPDrums.hpp" />
+		<Unit filename="KPPGuitar.cpp" />
+		<Unit filename="KPPGuitar.hpp" />
+		<Unit filename="KPPKeyboard.cpp" />
+		<Unit filename="KPPKeyboard.hpp" />
+		<Unit filename="KPPSound.cpp" />
+		<Unit filename="KPPSound.hpp" />
+		<Unit filename="main.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
